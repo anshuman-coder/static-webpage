@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+body {
+  background-color: white;
+}
+header {
+  display: flex;
+  margin-top: 3%;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 7%;
+  justify-content: space-between;
+}
+.logo-div {
+  margin-left: 5%;
+  float: left;
+  width: 25%;
+}
+
+.logo {
+  height: 60px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 50%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.navbar div {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.links {
+  text-decoration: none;
+  color: #8f8f8f;
+}
+.links-active {
+  text-decoration: none;
+  border-bottom: 4px solid #8071d0;
+  color: #000;
+}
+
+.links:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #8071d0;
+  color: #000;
+}
+
+.btn {
+  text-align: right;
+  width: 25%;
+  margin-right: 3%;
+}
+.user-account {
+  background-color: #ffd8db;
+  border: none;
+  border-radius: 20px;
+  color: #a389cc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.user-account:hover {
+  background-color: #fcaeb4;
+  border: none;
+  border-radius: 20px;
+  color: #a389cc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.content-div {
+  display: flex;
+  flex-direction: column;
+}
+.dot {
+  color: blueviolet;
+}
+
+.content-div h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: 0px;
+}
+.content-div p {
+  margin-top: 0px;
+  font-style: normal;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  color: #1b2631;
+  text-align: start;
+}
+
+.account {
+  display: flex;
+  margin-top: 5%;
+  justify-items: flex-start;
+}
+.account div {
+  margin-right: 1%;
+  height: fit-content;
+}
+
+.button-div {
+  padding-top: 1%;
+}
+.arrow-up-div {
+  cursor: pointer;
+}
+.arrow-down-div {
+  cursor: pointer;
+}
+
+.landing-section-image {
+  margin-right: 0px;
+  float: right;
+  align-items: center;
+}
+.landing-section-image img {
+  margin-right: 0px;
+  height: 90%;
+  float: none;
+}
+
+.animated-design {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+.new-account {
+  background-color: #5243c0;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+.new-account:hover {
+  background-color: #cec7ff;
+  border: none;
+  border-radius: 20px;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.design {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 20%;
+}
+.categories {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  margin-bottom: 2%;
+  height: 35px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.categories:hover {
+  font-family: sans-serif;
+  display: flex;
+  border: 1px solid whitesmoke;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 2%;
+  height: 35px;
+  padding: 5px;
+  box-shadow: 1px 1px whitesmoke;
+  cursor: pointer;
+}
+.categories-active {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid whitesmoke;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 2%;
+  height: 35px;
+  padding: 5px;
+  box-shadow: 1px 1px whitesmoke;
+  cursor: pointer;
+}
+.categories img,
+.categories-active img {
+  height: 90%;
+}
+.categories button,
+.categories-active button {
+  width: 5%;
+  margin-top: 3.3%;
+  height: 25%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 2%;
+}
+.design-name {
+  font-family: fantasy;
+  font-size: 14px;
+  padding-top: 2%;
+}
+.date {
+  font-size: 14px;
+  font-family: sans-serif;
+  padding-top: 2%;
+  color: darkgray;
+}
